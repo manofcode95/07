@@ -1,0 +1,37 @@
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: #ffffff;
+    position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#game {
+    text-align: center;
+}
+
+a {
+    position: fixed;
+    outline: none;
+    top: 2px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    outline: none;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    transform-origin: top center;
+}
